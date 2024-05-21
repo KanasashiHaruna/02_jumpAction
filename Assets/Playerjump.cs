@@ -20,7 +20,7 @@ public class Playerjump : MonoBehaviour
         //if(Input.GetKeyDown(KeyCode.Space)) { 
         //     rb.velocity = new Vector3(0,10,0);
         //}
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButtonDown(0))
         {
             clickPosition = Input.mousePosition;
         }
